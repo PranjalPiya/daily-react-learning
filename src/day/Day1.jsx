@@ -46,7 +46,10 @@ const Day1 = () => {
       })}</ul>
 
       <h1>Displaying list with different objects and values</h1>
-
+      <ul>{staticDataTwo.map((e) => {
+        return <li>
+          <p> <img alt='image' src={e['Image']} height={100} width={100}></img>  My name is {e['Name']}. I am {e['Age']} years old. I live in {e['Address']}</p></li>
+      })}</ul>
     </div>
   )
 }
