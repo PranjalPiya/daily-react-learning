@@ -1,7 +1,7 @@
 
 //WE WILL LEARN HOW TO FETCH DATA FROM THE API USING DIFFERENT METHODS.
 
-// FREE API :- "https://dummyjson.com/products/"
+// FREE API :- "https://jsonplaceholder.typicode.com/photos"
 
 import React from 'react';
 import { useState, useEffect } from 'react';
